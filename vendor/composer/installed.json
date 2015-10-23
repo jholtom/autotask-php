@@ -1,0 +1,100 @@
+[
+    {
+        "name": "opendns/autotask-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opendns/autotask-php.git",
+            "reference": "3b1e23d2ff3c8cd9d330972f4583dcb0bf71051f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opendns/autotask-php/zipball/3b1e23d2ff3c8cd9d330972f4583dcb0bf71051f",
+            "reference": "3b1e23d2ff3c8cd9d330972f4583dcb0bf71051f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-11-07 23:08:52",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "ATWS\\": "src/",
+                "ATWS\\AutotaskObjects\\": "src/AutotaskObjects"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Eric Reynolds",
+                "email": "ereynolds@opendns.com"
+            },
+            {
+                "name": "Miles Evenson",
+                "email": "miles@opendns.com"
+            }
+        ],
+        "description": "A SOAP client wrapper for talking to Autotask's Web Service",
+        "homepage": "http://github.com/opendns/autotask-php",
+        "keywords": [
+            "autotask",
+            "msp",
+            "psa",
+            "soap"
+        ]
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.6.2",
+        "version_normalized": "2.6.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/slimphp/Slim.git",
+            "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/slimphp/Slim/zipball/20a02782f76830b67ae56a5c08eb1f563c351a37",
+            "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-mcrypt": "Required for HTTP cookie encryption"
+        },
+        "time": "2015-03-08 18:41:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Slim": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "http://www.joshlockhart.com/"
+            }
+        ],
+        "description": "Slim Framework, a PHP micro framework",
+        "homepage": "http://github.com/codeguy/Slim",
+        "keywords": [
+            "microframework",
+            "rest",
+            "router"
+        ]
+    }
+]

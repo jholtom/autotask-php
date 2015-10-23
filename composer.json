@@ -1,0 +1,6 @@
+{
+    "require": {
+        "opendns/autotask-php": "dev-master",
+        "slim/slim": "~2.0"
+    }
+}
